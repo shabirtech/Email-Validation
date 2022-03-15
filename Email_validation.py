@@ -20,12 +20,14 @@ if len(email)>=6:
                         continue
                     else:
                         c=1
-                if a==1 or b==1 or c==1:
+                if a==1:
                     print("Wrong Email. \n Email don't need any space in email address")
-                # elif b==1:
-                #     print("Wrong Email. \nEmail address don't need any upper later.")
-                # elif c==1:
-                #     print("Wrong Email")
+                elif b==1:
+                    print("Wrong Email. \nEmail address don't need any upper later.")
+                elif c==1:
+                    print("Wrong Email")
+                else:
+                    print("Right Email")
             else:
                 print("Wrong Email. \n. is not present in present in email")
         else:
